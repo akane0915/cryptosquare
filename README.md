@@ -11,14 +11,5 @@
 |Nine character Strings|||
 |For strings with 9 characters the program will input each character into a 2d array with a length of three and a width of three| abcdefghi | array = [["a","b","c"],["d","e","f"],["g","h","i"]]|
 |The program will create an encrypted array from 2dArray[[0][0],[0][1],[0][2],[1][0],[1][1],[1][2],[2][0],[2][1],[2][2]] | abcdefghi | encryptedArray = ["a","d","g","b","e","h","c","f","i"]|
-[0][0]
-[0][1]
-[0][2]
-[1][0]
-[1][1]
-[1][2]
-[2][0]
-[2][1]
-[2][2]
 |Strings with perfect square character length|||
 |For strings that have a perfect square length, the program will input each character into a 2d array of length/width equal to the square root of the number of characters.| abcdefghijklmnop | array = [["a","b","c","d"],["e","f","g","h"],["i","j","k","l"],["m","n","o","p"]]|

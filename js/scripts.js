@@ -13,6 +13,7 @@ var perfectSquare = function(number) {
 };
 
 //Change to lowercase, split string into array, and call remove spaces and punc
+//determin if length perfect square, return string, else return not a perfect square
 var encrypt = function(userInput) {
   var stringArray = userInput.toLowerCase().split("").filter(removeSpaces);
   var inputLength = stringArray.length;
